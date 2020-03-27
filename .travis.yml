@@ -10,7 +10,7 @@ script:
 after_success:
 - touch ./_site/.nojekyll
 branches:
-  only: dev
+  only: master
 deploy:
   provider: pages
   target_branch: master
