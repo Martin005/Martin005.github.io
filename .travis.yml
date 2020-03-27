@@ -12,7 +12,8 @@ after_success:
 branches:
   only: dev
 deploy:
-  provider: releases
+  provider: pages
+  target_branch: master
   edge: true
   skip-cleanup: true
   keep-history: true
@@ -20,5 +21,4 @@ deploy:
   on:
     repo: Martin005/Martin005.github.io
     branch: master
-  local-dir: _site
   committer-from-gh: true
