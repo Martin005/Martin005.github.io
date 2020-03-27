@@ -10,13 +10,8 @@ script:
 after_success:
 - touch ./_site/.nojekyll
 deploy:
-  provider: pages:git
-  skip-cleanup: true
-  keep-history: true
+  provider: releases
+  api_key:
+    secure: ILBHauijVXm/jztf5RwtpdUWjNedBz+dDni574Qq9ORIpu4dqenRQBe4HN7ralslG7C7GSJqjarRZ3j9bYXnYZhWjqlUSCXtzcRhm7izu6+G1lNmOmi9JUfutKUbe2/zUHD/iEp3CIityUKIzGIpF65yx/mZ+AEn+QzZUNU993B7zgTD/XW8qh0kcZXMpcwbThkM/EDcu9BRaLlvMAnAJ9hG808Qh82DpSByFs//MRsbPBmrhEZnVaYV0bP+VvETC3d2qYGfBLd6513IzI/yZJn0hSLaN8nATb5Xp8OkeAr2Vg3DwyrE0oEphJ1GTClGemTn38yQZx/+50a0c3f7nEAfI/SzDbKap9sPI8DZ2BPvepTf1F/AxEVsPli+GbxAVXrcE2Z62fQa1ziZOwQMJtGhDZVmPdcf1RT1tHNCcWxwegn7qOPaI0WvNF+L5aDGqi6sDfxcER2M8l2iZaDeZ/Qkzm6QH6TvjOCJRhDMeRwRbiUEGwA2mmJM35UGnppyekTw9LK8UZfFWZkON6p9MM74iTZaHNlqiwHAinxbkFvyX1rZKeag5GgxJX/tRCUud6qmuu2pURSn9eBZxH2boEA8rjuZl5oAqYuNT9g1kvzfBpqQHysWl/zf+FQecZlHtJEuwiHSnw+9lGDwlPwNULFGxZxcwB375CSnqYQJoPc=
   on:
-    branch: master
-  local-dir: _site
-  committer-from-gh: true
-  edge: true
-  token:
-    secure: n9cbIBT3+sjiuOQUk9R/qGJwpVL3C3LgK27+th/ndIK9Ly9pd8Kapbl3Nk/NsqxjjQbqqAri8v+HS7GLM/pBVpy2XARgbNHSuNs38UDfwE3lW/z5Zu8eafIXZntVhhKffIOedBGXQkJXUeXVl4kd0yzdGEVJEOpQifeg7rX/7TUuR+7+qsPZJsbHGgsDuN30HkedOYsvqtgMOvOYOiEEFnN5EXPTYDiXm+uVn/k08/xFfzm9MHYCKed4bBqfygaotPHWVrF87ppInOU7XoFagH8EfyARyhnhe66F1a9e4ChxBSJcVwWcwGYhigdMm5rm69mJRqwpsQKWsoAPM6qbsdO/WKCoTfR+l1MBYvQKoiwHoAew1M+4CjTjmWziSevsYRgpKkDN2RsdA5Ex7y0UX77KLMqS3DVOvGLpp3dfzE7UjdCH40oEXwbXr9so12Zaht1uXzVVvyqILhsLrTkk9jM2UAtEzRhoSrQvAP7Yq3hKBxQnZIH+dkpn/+utPU51rLRfQi8i3ayN1zxSVe0a7UNovIFDHUMmkecQynbA/6Fa120lm+GTqogs2ioPClXbTcGYbvxwbPfWDApy6+qqBKErOytkImvTrkoVkHIO9UasMigEDYVVVq+hqRg60fBIfJR78Nybg84vYQ8YPCy7hWFLDYhbUnf1DvZBn1K0T/M=
+    repo: Martin005/Martin005.github.io
