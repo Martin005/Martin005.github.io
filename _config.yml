@@ -148,7 +148,7 @@ title-separator: "-"
 date_format: "%B %-d, %Y"
 
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tag/
 
 jekyll-archives:
