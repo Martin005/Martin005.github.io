@@ -13,8 +13,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
-  api_key:
-    secure: ILBHauijVXm/jztf5RwtpdUWjNedBz+dDni574Qq9ORIpu4dqenRQBe4HN7ralslG7C7GSJqjarRZ3j9bYXnYZhWjqlUSCXtzcRhm7izu6+G1lNmOmi9JUfutKUbe2/zUHD/iEp3CIityUKIzGIpF65yx/mZ+AEn+QzZUNU993B7zgTD/XW8qh0kcZXMpcwbThkM/EDcu9BRaLlvMAnAJ9hG808Qh82DpSByFs//MRsbPBmrhEZnVaYV0bP+VvETC3d2qYGfBLd6513IzI/yZJn0hSLaN8nATb5Xp8OkeAr2Vg3DwyrE0oEphJ1GTClGemTn38yQZx/+50a0c3f7nEAfI/SzDbKap9sPI8DZ2BPvepTf1F/AxEVsPli+GbxAVXrcE2Z62fQa1ziZOwQMJtGhDZVmPdcf1RT1tHNCcWxwegn7qOPaI0WvNF+L5aDGqi6sDfxcER2M8l2iZaDeZ/Qkzm6QH6TvjOCJRhDMeRwRbiUEGwA2mmJM35UGnppyekTw9LK8UZfFWZkON6p9MM74iTZaHNlqiwHAinxbkFvyX1rZKeag5GgxJX/tRCUud6qmuu2pURSn9eBZxH2boEA8rjuZl5oAqYuNT9g1kvzfBpqQHysWl/zf+FQecZlHtJEuwiHSnw+9lGDwlPwNULFGxZxcwB375CSnqYQJoPc=
+  github_token: $github_token
   on:
     repo: Martin005/Martin005.github.io
     branch: master
