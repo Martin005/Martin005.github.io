@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'jekyll'
+
 group :jekyll_plugins do
-    gem "jekyll-archives"
+    gem 'jekyll-archives'
+    gem 'jekyll-postfiles'
 end
 
 gem "github-pages", '197', group: :jekyll_plugins

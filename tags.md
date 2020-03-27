@@ -3,7 +3,6 @@ layout: page
 title: 'Tag Index'
 ---
 
-
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
         {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
@@ -18,8 +17,7 @@ title: 'Tag Index'
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
     <h2 id="{{- tag -}}" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;<a href="{{ '/tag' | relative_url }}/{{- tag -}}">{{- tag -}}</a>&nbsp;({{site.tags[tag].size}})
     </h2>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
