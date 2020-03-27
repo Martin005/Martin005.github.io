@@ -23,6 +23,7 @@ deploy:
   edge: true
   skip-cleanup: true
   keep-history: true
+  local-dir: /_site
   github_token: $github_token
   on:
     repo: Martin005/Martin005.github.io
