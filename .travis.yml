@@ -10,12 +10,13 @@ script:
 after_success:
 - touch ./_site/.nojekyll
 deploy:
-  provider: pages
+  provider: pages:git
   skip-cleanup: true
   keep-history: true
   on:
     branch: master
   local-dir: _site
   committer-from-gh: true
+  edge: true
   token:
     secure: n9cbIBT3+sjiuOQUk9R/qGJwpVL3C3LgK27+th/ndIK9Ly9pd8Kapbl3Nk/NsqxjjQbqqAri8v+HS7GLM/pBVpy2XARgbNHSuNs38UDfwE3lW/z5Zu8eafIXZntVhhKffIOedBGXQkJXUeXVl4kd0yzdGEVJEOpQifeg7rX/7TUuR+7+qsPZJsbHGgsDuN30HkedOYsvqtgMOvOYOiEEFnN5EXPTYDiXm+uVn/k08/xFfzm9MHYCKed4bBqfygaotPHWVrF87ppInOU7XoFagH8EfyARyhnhe66F1a9e4ChxBSJcVwWcwGYhigdMm5rm69mJRqwpsQKWsoAPM6qbsdO/WKCoTfR+l1MBYvQKoiwHoAew1M+4CjTjmWziSevsYRgpKkDN2RsdA5Ex7y0UX77KLMqS3DVOvGLpp3dfzE7UjdCH40oEXwbXr9so12Zaht1uXzVVvyqILhsLrTkk9jM2UAtEzRhoSrQvAP7Yq3hKBxQnZIH+dkpn/+utPU51rLRfQi8i3ayN1zxSVe0a7UNovIFDHUMmkecQynbA/6Fa120lm+GTqogs2ioPClXbTcGYbvxwbPfWDApy6+qqBKErOytkImvTrkoVkHIO9UasMigEDYVVVq+hqRg60fBIfJR78Nybg84vYQ8YPCy7hWFLDYhbUnf1DvZBn1K0T/M=
