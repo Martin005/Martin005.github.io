@@ -9,6 +9,8 @@ script:
 - bundle exec jekyll build
 after_success:
 - touch ./_site/.nojekyll
+branches:
+  only: dev
 deploy:
   provider: releases
   edge: true
