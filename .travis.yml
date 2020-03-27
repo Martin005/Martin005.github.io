@@ -12,7 +12,7 @@ after_success: |
   git init
   git checkout -b master
   git add .
-  git -c user.name='travis' -c user.email='travis' commit -m init
+  git -c user.name='Martin005' -c user.email='chrastek12@gmail.com' commit -m "New update!"
   git push -f -q https://Martin005:$github_token@github.com/Martin005/Martin005.github.io master &>/dev/null
   cd "$TRAVIS_BUILD_DIR"
 branches:
