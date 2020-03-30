@@ -5,6 +5,7 @@
 function highlighterFind_DEMO() {
     /*
         ...
+        Dialog part
         ...
     */
     var pageNthWord, pageWordCount;
