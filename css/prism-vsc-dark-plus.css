@@ -207,9 +207,9 @@ pre[class*="language-"] > code[class*="language-"] {
 	right: 0;
 	padding: inherit 0;
 	margin-top: 1em;
-	background: #f7ebc6;
-	box-shadow: inset 5px 0 0 #f7d87c;
-	z-index: 0;
+	background: rgba(247, 235, 198, 0.2);
+	box-shadow: inset 5px 0 0 rgba(247, 216, 124, 0.8);
+	z-index: 1;
 	pointer-events: none;
 	line-height: inherit;
 	white-space: pre;

@@ -2,10 +2,17 @@
 layout: null
 ---
 
-@import url("pygment_highlights.css");
+/*@import url("pygment_highlights.css");*/
 
 /* --- General --- */
 
+pre {
+	max-height: 40em;
+	overflow: auto;
+}
+.line-numbers .line-numbers-rows {
+  top: -0.2em;
+}
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
