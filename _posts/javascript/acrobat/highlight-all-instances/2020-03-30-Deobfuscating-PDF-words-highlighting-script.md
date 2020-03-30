@@ -38,6 +38,4 @@ And here is the prettified source code:
 At this point, it is pretty easy to spot where the protection lies. There are three points where the number of so far highlighted matches is checked. If the count is higher than or equal to 3, the whole loop breaks and no other matches are highlighted.
 <pre class="line-numbers match-braces" data-line="16-18, 35-37, 44-46" data-src="AutoHighlighter-7-Protection.js"></pre>
 
-When you remove these checks and all references that say this is a demo version, you essentially get the full version 🙂
-
 If you would like to support Gilad Denneboom (the creator of this script), you can buy the full version of this script through [his blog post](https://try67.blogspot.com/2008/11/acrobat-highlight-all-instances-of.html).
