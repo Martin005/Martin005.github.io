@@ -3,8 +3,8 @@ cache: bundler
 sudo: false
 rvm: 2.5
 install:
-- gem install bundler
-- bundle install
+- gem install bundler --pre
+- bundle install --verbose
 script:
 - bundle exec jekyll build
 after_success: |

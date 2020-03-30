@@ -12,7 +12,7 @@ When I saw that the [Highlight All Instances of a Word or Phrase in a PDF](https
 
 This script, as the name suggests, enables you to highlight all instances of a word or a phrase with the ability to add a comment or change the color of the highlight. The free demo is limited to highlight only up to 3 matches.
 
-When I downloaded the script and opened it, I saw heavily obfuscated JavaScript code 🙂
+When I downloaded the script and opened it, I saw heavily obfuscated JavaScript code 😊
 <pre data-src="AutoHighlighter-0-DEMO.js"></pre>
 
 To deobfuscate the code, I used [this JavaScript Beautifier](https://beautifier.io/) and I got the following code:
