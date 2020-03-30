@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reverse Engineering Blog</title>
+    <description>Reverse Engineer Everything!</description>
+    <link>http://martin005.github.io/</link>
+    <atom:link href="http://martin005.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Deobfuscating the &quot;Highlight All Instances of a Word or Phrase in a PDF&quot; script</title>
+        <description>
+          
+          
+  When I saw that the “Highlight All Instances of a Word or Phrase in a PDF” script had a free demo available to download, I immediately went to work and got my hands dirty.
+
+
+
+        </description>
+        <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://martin005.github.io/posts/2020/03/30/Deobfuscating-PDF-words-highlighting-script/</link>
+        <guid isPermaLink="true">http://martin005.github.io/posts/2020/03/30/Deobfuscating-PDF-words-highlighting-script/</guid>
+      </item>
+    
+  </channel>
+</rss>
